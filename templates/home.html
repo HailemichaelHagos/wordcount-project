@@ -1,0 +1,12 @@
+This  is html Fam
+<h1> Word Count </h1>
+
+<a href= "{% url 'about' %}">About</a>
+<br />
+
+<form action="{% url 'count' %}">
+  <textarea cols="40" rows="10" name="fulltext"></textarea>
+  <br  /> <br  />
+  <input type="submit" value="Count!" />
+
+  </form>
